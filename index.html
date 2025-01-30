@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="src/css/variaveis.css">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/sidebar-footer.css">
+    <link rel="stylesheet" href="src/css/main-content.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
 </head>
 <body>
-    <div class="sidebar">
+    <aside class="sidebar">
         <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
@@ -65,6 +66,32 @@
                 </button>
             </div>
         </div>
-    </div>
+    </aside>
+
+    <main>
+        <div class="main-container">
+            <nav class="header_navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+
+                <div class="header_search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+
+                <div class="header_login">
+                    <button class="subscribe">Increva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
 </body>
 </html>
